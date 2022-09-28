@@ -1,0 +1,18 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /{allPaths=**} {
+      allow read, write: if request.auth!=null;
+    }
+  }
+}
+evet sıkıntı nedir
+runladığımda bu aşağıdaki hata çıktı
+kanka öncede bu hata çıktı public deki indexçhtml i srcye atınca düzeldi sonra tekrar geldi 
+dur bi sn bakim
+bunu nasıl çalıştırdın
+npm run serve yazıyom terminale
+root folderlar varmış nerede onlar
+ben öyle bir şey yazmadım arama yerinden arasan
+TAMAMMM ARARIM aramazsan arama yar tövebdskmdkkldck bi an başka birşey yazcan sandım dur kanka bir araştırıp geliyom
+kanka şuna baksana bir ya 
